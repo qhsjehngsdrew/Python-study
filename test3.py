@@ -1,14 +1,9 @@
-def 윤년(연도):
-    판별 = "평년"
-    if 연도 % 4 == 0:
-        판별 = "윤년"
-    if 연도 % 100 == 0:
-        판별 = "평년"
-    if 연도 % 400 == 0:
-        판별 = "윤년"
-    print(연도, 판별)
+from turtle import *
 
-윤년(2000)
-윤년(2022)
-윤년(2040)
-윤년(2100)
+for i in range(6):
+    forward(100)
+    left(120)
+    forward(100)
+    right(60)
+
+a= int(input("aa"))

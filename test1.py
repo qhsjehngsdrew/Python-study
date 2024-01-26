@@ -1,15 +1,8 @@
+from turtle import *
+for steps in range(100):
+    for c in ('blue', 'red', 'green'):
+        color(c)
+        forward(steps)
+        right(30)
 
-def  판별(v):
-    표시 = "같다"
-
-    if v > 10:
-        표시 = "크다"
-    elif v < 10:
-        표시 = "작다"
-    else:
-        표시 = "같다"
-    print(표시)
-
-판별(20)
-판별(10)
-판별(5)
+a = int(input("aa"))

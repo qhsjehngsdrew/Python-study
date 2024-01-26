@@ -1,11 +1,7 @@
-def 큰수(a, b, c):
-    res = a
-    if (res < b):
-        res = b
-    if (res < c):
-        res = c
-    print("큰수=", res)
+from turtle import *
 
-큰수(4,5,6)
-큰수(6,4,5)
-큰수(1,7,2)
+for i in range(5):
+    forward(100)
+    left(72)
+
+a= int(input("aa"))
